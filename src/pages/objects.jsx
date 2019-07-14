@@ -30,12 +30,12 @@ const useStyles = makeStyles(theme => ({
         paddingTop: theme.spacing(3),
         fontSize: 18,
     },
-    image: {
-        width: 30,
-        height: 30,
-    },
-    yart: {
+    paddingImage: {
+        width: '100%',
         paddingTop: 30,
+    },
+    image: {
+        width: '100%',
     },
 }));
 
@@ -72,46 +72,49 @@ export default function Objects() {
                                 <Slide index={0}>
                                     <img
                                         src={YAMZ}
+                                        className={classes.image}
                                         alt="ЯМЗ"
                                     />
                                 </Slide>
                                 <Slide index={1}>
                                     <img
                                         src={YASHZ}
+                                        className={classes.image}
                                         alt="ЯШЗ"
                                     />
                                 </Slide>
                                 <Slide index={2}>
                                     <img
                                         src={YART}
-                                        className={classes.yart}
+                                        className={classes.paddingImage}
                                         alt="ЯРТ"
                                     />
                                 </Slide>
                                 <Slide index={3}>
                                     <img
                                         src={tgk2}
-                                        className={classes.yart}
+                                        className={classes.paddingImage}
                                         alt="ТГК2"
                                     />
                                 </Slide>
                                 <Slide index={4}>
                                     <img
                                         src={nkz}
-                                        className={classes.yart}
+                                        className={classes.paddingImage}
                                         alt="НКЗ"
                                     />
                                 </Slide>
                                 <Slide index={5}>
                                     <img
                                         src={zhb}
+                                        className={classes.image}
                                         alt="ЖБ"
                                     />
                                 </Slide>
                                 <Slide index={5}>
                                     <img
                                         src={rzhd}
-                                        className={classes.yart}
+                                        className={classes.paddingImage}
                                         alt="РЖД"
                                     />
                                 </Slide>

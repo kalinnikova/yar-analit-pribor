@@ -6,6 +6,9 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core';
 import vzlet from '../assets/vzlet5.png';
+import sro1 from '../assets/sro1.jpg';
+import sro2 from '../assets/sro2.jpg';
+import gazovik from '../assets/gazovik.jpg';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -64,6 +67,27 @@ export default function Home() {
                     <img
                         src={vzlet}
                         alt="Расходомер-счетчик электромагнитный ВЗЛЕТ ЭМ (ПРОФИ-ххх М)"
+                        className={classes.image}
+                    />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                    <img
+                        src={sro1}
+                        alt="СРО"
+                        className={classes.image}
+                    />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                    <img
+                        src={sro2}
+                        alt="СРО"
+                        className={classes.image}
+                    />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                    <img
+                        src={gazovik}
+                        alt="СРО"
                         className={classes.image}
                     />
                 </Grid>

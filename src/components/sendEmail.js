@@ -44,11 +44,6 @@ class SendEmail extends Component {
                 fullScreen={this.props.fullScreen}
                 aria-labelledby="responsive-dialog-title"
             >
-                {/* <form method="POST" action="https://formspree.io/yaranalitpribor@yandex.ru">
-                    <input type="email" name="email" placeholder="Your email" />
-                    <textarea name="message" placeholder="Test Message"></textarea>
-                    <button type="submit">Send Test</button>
-                </form> */}
                 <form method="POST" action="https://formspree.io/yaranalitpribor@yandex.ru">
                     <DialogTitle glitterBottom id="responsive-dialog-title">
                         Оставьте заявку

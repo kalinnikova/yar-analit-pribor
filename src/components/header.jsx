@@ -62,7 +62,7 @@ const useStyles = makeStyles(theme => ({
     tabs: {
         boxShadow: 'none',
         backgroundColor: 'inherit',
-        paddingTop: 19,
+        paddingTop: 49,
     },
     tab: {
         '&:hover': {

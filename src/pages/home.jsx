@@ -11,28 +11,32 @@ import sro2 from '../assets/sro2.jpg';
 import gazovik from '../assets/gazovik.jpg';
 
 const useStyles = makeStyles(theme => ({
-    root: {
-        display: 'flex',
-        flexDirection: 'column',
-        minHeight: '100vh',
-        paddingTop: 30,
-        fontFamily: 'Circe, Arial, sans-serif',
-    },
-    mainGrid: {
-        marginTop: theme.spacing(3),
-    },
-    sidebarAboutBox: {
-        padding: theme.spacing(2),
-        backgroundColor: theme.palette.grey[300],
-    },
-    paragraph: {
-        paddingTop: theme.spacing(3),
-        fontSize: 18,
-    },
-    image: {
-        width: '100%',
-        paddingTop: theme.spacing(3),
-    },
+  root: {
+    display: "flex",
+    flexDirection: "column",
+    minHeight: "100vh",
+    paddingTop: 30,
+    fontFamily: "Circe, Arial, sans-serif"
+  },
+  mainGrid: {
+    marginTop: theme.spacing(3)
+  },
+  sidebarAboutBox: {
+    padding: theme.spacing(2),
+    backgroundColor: theme.palette.grey[300]
+  },
+  paragraph: {
+    paddingTop: theme.spacing(3),
+    fontSize: 18
+  },
+  image: {
+    width: "100%",
+    paddingTop: theme.spacing(3)
+  },
+  phone: {
+    fontWeight: '800',
+    letterSpacing: '0.07em'
+  }
 }));
 
 export default function Home() {
@@ -60,8 +64,8 @@ export default function Home() {
                         <Typography>
                             Телефон
                         </Typography>
-                        <Typography variant="h6" gutterBottom>
-                            8 (4852)32-86-64
+                        <Typography variant="h6" className={classes.phone} gutterBottom>
+                            8 (4852) 32-86-64
                         </Typography>
                     </Paper>
                     <img

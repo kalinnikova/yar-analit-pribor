@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import OutlinedInput from '@material-ui/core/OutlinedInput';
 import Button from '@material-ui/core/Button';
-import axios from 'axios';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
@@ -18,22 +17,10 @@ class SendEmail extends Component {
         };
 
         this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value })
-    };
-
-    async handleSubmit(e) {
-        e.preventDefault();
-
-        const { name, phone } = this.state;
-
-        await axios.post('/api/form', {
-            name,
-            phone,
-        })
     };
 
     render() {

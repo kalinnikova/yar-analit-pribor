@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import contacts from '../assets/contacts.jpg';
+import contacts from '../assets/contacts.png';
 
 const mapState = {
     controls: ['default']
@@ -27,7 +27,10 @@ const styles = () => ({
         flex: 1,
     },
     cardMedia: {
-        width: 507,
+        width: 477,
+        height: 207,
+        marginTop: 23,
+        marginRight: 14,
     },
     card: {
         display: 'flex',
@@ -52,13 +55,14 @@ class Contacts extends Component {
                                         Телефоны:
                                     </Typography>
                                     <Typography variant="subtitle1" paragraph>
-                                        +7(4852)32-90-42 - Калинников Григорий Сергеевич, директор
+                                        <div>+7(4852) 32-90-42</div>
+                                        +7(910) 663-74-50 - Калинников Григорий Сергеевич, директор
                                     </Typography>
                                     <Typography variant="subtitle1" paragraph>
-                                        +7(4852)32-90-42 - Смирнов Валерий Александрович, заместитель директора
+                                        +7(4852) 32-90-42 - Смирнов Валерий Александрович, заместитель директора
                                     </Typography>
                                     <Typography variant="subtitle1" paragraph>
-                                        +7(4852)32-86-64 - Горюнов Александр Николаевич, ведущий инженер-проектировщик
+                                        +7(4852) 32-86-64 - Горюнов Александр Николаевич, ведущий инженер-проектировщик
                                     </Typography>
                                 </CardContent>
                             </div>

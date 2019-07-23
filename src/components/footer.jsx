@@ -70,8 +70,8 @@ export default function Footer() {
                             8 (4852) 32-86-64
                         </span>
                     </Grid>
-                    <Grid item xs={12} md={3}>
-                        ООО НПФ "ЯрАналитПрибор"
+                    <Grid item xs={12} md={4}>
+                        ООО "ЯрАналитПрибор" - установка и обслуживание тепловых счетчиков в Ярославле
                     </Grid>
                 </Grid>
             </Container>

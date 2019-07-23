@@ -55,14 +55,14 @@ const useStyles = makeStyles(theme => ({
         },
     },
     title: {
-        paddingTop: 10,
+        paddingTop: 40,
         paddingLeft: 22,
         fontWeight: '600',
     },
     tabs: {
         boxShadow: 'none',
         backgroundColor: 'inherit',
-        paddingTop: 49,
+        paddingTop: 41,
     },
     tab: {
         '&:hover': {
@@ -158,13 +158,14 @@ function Header({ location }) {
                         <Grid item xs={12} md={2}>
                             <img
                                 src={logo}
-                                alt="Логотип"
+                                alt="Установка и обслуживание тепловых счетчиков в Ярославле"
+                                title="Установка и обслуживание тепловых счетчиков в Ярославле"
                                 className={classes.image}
                             />
                         </Grid>
                         <Grid className={classes.title} item xs={12} md={4}>
                             <h2>
-                                ООО НПФ "ЯрАналитПрибор"
+                                ООО "ЯрАналитПрибор"
                             </h2>
                         </Grid>
                         <Grid item xs={12} md={6}>

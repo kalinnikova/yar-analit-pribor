@@ -69,7 +69,8 @@ class Contacts extends Component {
                             <CardMedia
                                 className={classes.cardMedia}
                                 image={contacts}
-                                title="Image title"
+                                title="Контакты ЯрАналитПрибор"
+                                alt="Контакты ЯрАналитПрибор"
                             />
                         </Card>
                     </Grid>

@@ -103,14 +103,16 @@ export default function Directions() {
                 <Grid item xs={12} md={6}>
                     <img
                         src={seti1}
-                        alt="Тепловые сети"
+                        alt="Установка теплосчетчиков Ярославль"
+                        title="Установка теплосчетчиков Ярославль"
                         className={classes.image}
                     />
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <img
                         src={seti2}
-                        alt="Тепловые сети"
+                        alt="Проектирование узлов учета тепловой энергии"
+                        title="Проектирование узлов учета тепловой энергии"
                         className={classes.image}
                     />
                 </Grid>

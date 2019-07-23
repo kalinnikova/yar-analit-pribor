@@ -74,6 +74,7 @@ export default function Objects() {
                                         src={YAMZ}
                                         className={classes.image}
                                         alt="ЯМЗ"
+                                        title="ЯМЗ"
                                     />
                                 </Slide>
                                 <Slide index={1}>
@@ -81,6 +82,7 @@ export default function Objects() {
                                         src={YASHZ}
                                         className={classes.image}
                                         alt="ЯШЗ"
+                                        title="ЯШЗ"
                                     />
                                 </Slide>
                                 <Slide index={2}>
@@ -88,6 +90,7 @@ export default function Objects() {
                                         src={YART}
                                         className={classes.paddingImage}
                                         alt="ЯРТ"
+                                        title="ЯРТ"
                                     />
                                 </Slide>
                                 <Slide index={3}>
@@ -95,6 +98,7 @@ export default function Objects() {
                                         src={tgk2}
                                         className={classes.paddingImage}
                                         alt="ТГК2"
+                                        title="ТГК2"
                                     />
                                 </Slide>
                                 <Slide index={4}>
@@ -102,6 +106,7 @@ export default function Objects() {
                                         src={nkz}
                                         className={classes.paddingImage}
                                         alt="НКЗ"
+                                        title="НКЗ"
                                     />
                                 </Slide>
                                 <Slide index={5}>
@@ -109,6 +114,7 @@ export default function Objects() {
                                         src={zhb}
                                         className={classes.image}
                                         alt="ЖБ"
+                                        title="ЖБ"
                                     />
                                 </Slide>
                                 <Slide index={5}>
@@ -116,6 +122,7 @@ export default function Objects() {
                                         src={rzhd}
                                         className={classes.paddingImage}
                                         alt="РЖД"
+                                        title="РЖД"
                                     />
                                 </Slide>
                             </Slider>
